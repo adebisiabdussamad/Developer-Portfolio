@@ -79,7 +79,7 @@ h1 {
   font-family: 'Prata', sans-serif;
   font-size: 3rem;
   font-weight: 400;
-  width: 50%;
+  width: 60%;
   line-height: 4rem;
 }
 
@@ -103,4 +103,42 @@ h1+p {
 .companies img:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+.more-content {
+  margin-top: 70px;
+}
+
+.more-list {
+  list-style: none;
+  display: flex;
+  gap: 10%;
+}
+
+.more-list li {
+  width: 45%;
+}
+
+.more-list img {
+  width: 500px;
+  object-fit: cover;
+}
+
+.more-list h4,
+.more-list a {
+  text-decoration: none;
+  font-family: 'Prata', sans-serif;
+  font-size: 2rem;
+  color: white;
+  margin: 10px 0;
+}
+
+.more-list h4:hover {
+  text-decoration: underline;
+}
+
+.more-list p {
+  color: #949494;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
 }
