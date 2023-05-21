@@ -7,20 +7,24 @@
 }
 
 body {
-  width: 80%;
-  padding: 30px 0;
   margin: 0 auto;
-  background-color: #0a0a0b;
+  /* background-color: #0a0a0b; */
   color: white;
   font-family: 'Inter', sans-serif;
 }
 
-.header-section {
+header {
+  background-color: #0a0a0b;
+}
+
+.port {
+  width: 80%;
+  margin: 0 auto;
   /* height: 20px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 70px;
+  padding: 40px 0;
 }
 
 .nav-links {
@@ -34,6 +38,7 @@ body {
 h3 {
   font-family: 'Prata', sans-serif;
   font-size: 1.4rem;
+  cursor: pointer;
 }
 
 nav a {
@@ -44,6 +49,11 @@ nav a {
 
 nav a:hover {
   transform: scale(1.2);
+}
+
+main {
+  background-color: #0a0a0b;
+
 }
 
 .contact {
@@ -68,6 +78,9 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 80%;
+  background-color: #0a0a0b;
+  margin: 0 auto;
 
 }
 
@@ -106,13 +119,18 @@ h1+p {
 }
 
 .more-content {
-  margin-top: 70px;
+  margin: 70px auto;
+  width: 80%;
+  background-color: #0a0a0b;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
 .more-list {
   list-style: none;
   display: flex;
   gap: 10%;
+
 }
 
 .more-list li {
@@ -141,4 +159,26 @@ h1+p {
   color: #949494;
   line-height: 1.5rem;
   font-size: 1.1rem;
+}
+
+.later-content {
+  background-color: #949494;
+  padding: 50px 0;
+}
+
+.later-list {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+  gap: 10%;
+}
+
+.later-content h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.later-content p {
+  padding: 10px 0;
 }
