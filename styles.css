@@ -90,8 +90,12 @@ main {
 
 }
 
+main {
+  padding: 0;
+}
+
 .main-content {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -300,5 +304,24 @@ footer {
 
   .contact-me p {
     width: 75%;
+  }
+}
+
+@media (max-width: 660px) {
+  main {
+    padding-top: 50px;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 2.5rem;
+  }
+
+  .companies {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .later-content h3 {
+    font-size: 1.8rem;
   }
 }
