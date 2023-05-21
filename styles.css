@@ -15,6 +15,7 @@ body {
 
 header {
   background-color: #0a0a0b;
+  height: 100px;
 }
 
 .port {
@@ -50,6 +51,10 @@ nav a {
 
 nav a:hover {
   transform: scale(1.2);
+}
+
+.menu {
+  display: none;
 }
 
 main {
@@ -185,6 +190,7 @@ h1+p {
 
 .later-content p {
   padding: 10px 0;
+  font-size: 1.1rem;
 }
 
 .contact-me {
@@ -204,6 +210,7 @@ h1+p {
   width: 40%;
   color: #949494;
   padding: 15px 0;
+  font-size: 1.1rem;
 }
 
 .now a {
@@ -219,7 +226,7 @@ h1+p {
 }
 
 footer {
-  background-color: #0a0a0b;
+  background-color: #2E3038;
   padding: 30px 0;
 }
 
@@ -244,4 +251,54 @@ footer {
 
 .footer-links img:hover {
   transform: scale(1.3);
+}
+
+@media (max-width: 867px) {
+
+  nav,
+  .contact {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 3.6rem;
+  }
+
+  h1+p {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .companies {
+    display: inline-grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+  }
+
+  .more-list {
+    flex-direction: column;
+  }
+
+  .more-list li {
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .later-list {
+    flex-direction: column;
+  }
+
+  .later-list li {
+    padding: 30px 0;
+  }
+
+  .contact-me p {
+    width: 75%;
+  }
 }
