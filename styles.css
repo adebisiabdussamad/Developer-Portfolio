@@ -56,7 +56,8 @@ main {
 
 }
 
-.contact {
+.contact,
+.now {
   transition: transform 0.2s;
 }
 
@@ -69,8 +70,7 @@ main {
   background-color: #ebda4b;
   color: #0a0a0b;
   font-family: 'Prata', sans-serif;
-  padding: 16px;
-
+  padding: 16px 24px;
 }
 
 .hero-section {
@@ -184,4 +184,35 @@ h1+p {
 
 .later-content p {
   padding: 10px 0;
+}
+
+.contact-me {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.contact-me h2 {
+  font-family: 'Prata', sans-serif;
+  font-size: 2.3rem;
+  font-weight: 400;
+  color: white;
+}
+
+.contact-me p {
+  width: 40%;
+  color: #949494;
+  padding: 15px 0;
+}
+
+.now a {
+  text-decoration: none;
+  background-color: #ebda4b;
+  color: #0a0a0b;
+  font-family: 'Prata', sans-serif;
+  padding: 16px 24px;
+}
+
+.now a:hover {
+  background-color: #ffe817;
 }
